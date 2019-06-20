@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="TestAll">
+    <test name="lll">
+        <classes>
+        <class name="com.vivatconsulting.TestWordsCounter">
+            <methods>
+                <include name="testWordsCounter"></include>
+            </methods>
+
+            <methods>
+                <include name="testWordsCounterOnExceptions"></include>
+            </methods>
+
+        </class>
+        </classes>
+    </test>
+
+</suite>
